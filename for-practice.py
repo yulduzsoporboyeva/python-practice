@@ -54,7 +54,7 @@ nums = list(range(1, 21, 2))
 average_value = s / len(nums)
 print(average_value)
 
-n  = 1 * 2 * 3 * (n - 1) * n
+n = 1 * 2 * 3 * (n - 1) * n
 k = 1
 for son in range(1, 20):
     k *= son # k = k * son
