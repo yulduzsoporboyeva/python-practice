@@ -1,4 +1,4 @@
-ismlar = ["Elbek", "Ibrohim", "G`ulomjon K", "G`ulomjon T", "Rahimboy"]
+ismlar = ["Harishankaran", "Leo", "Garry Poter", "Alexsandr", "Stiv"]
 for ism in ismlar:
     print(f"Bugun {ism}. Futbolga kelasizlarmi? ")
 
@@ -10,7 +10,7 @@ for son in sonlar:
 
 kinolar = []
 for k in range(5):
- kino = input(f"{k + 1} Sevimli kiongizni kiriting :")
+ kino = input(f"{k + 1} Sevimli kinogizni kiriting :")
  kinolar.append(kino)
 print(kinolar)
 
