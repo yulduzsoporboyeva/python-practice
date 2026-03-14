@@ -79,4 +79,23 @@ taomlar = {
 print(f"alisaning sevimli taomi{taomlar['alisa']}")
 print(f"leylaning sevimli taomi{taomlar['leyla']}")
 print(f"emmaning sevimli taomi{taomlar['emma']}")
+ #homewor 3.
+dictionary = {
+    'integar' : 'butun son',
+    'float' : 'onlik son',
+    'string' : 'matn',
+    'boolean' : 'mantiqiy qiymat',
+} 
+print(f'integar - {dictionary["integar"]}')
+print(f'float - {dictionary["float"]}')
+print(f'string - {dictionary["string"]}')
+print(f'boolean - {dictionary["boolean"]}')
 
+#homework 4.
+# So'z tarjimasini so'rash
+text = input("Tarjimasini bilmoqchi bo'lgan so'zni kiriting: ")
+print(dictionary.get(text))
+if dictionary.get(text) == None:
+    print("Bunday so'z mavjud emas.")
+else:
+    print(dictionary.get(text))
