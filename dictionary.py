@@ -99,3 +99,4 @@ if dictionary.get(text) == None:
     print("Bunday so'z mavjud emas.")
 else:
     print(dictionary.get(text))
+    
