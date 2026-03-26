@@ -31,3 +31,16 @@ calculate_age(2011, "Yulduz")
 def yosh_hisobla(tugilgan_yil, joriy_yil = 2026):
     print(f"Sizning yoshingiz {joriy_yil - tugilgan_yil} da")
 yosh_hisobla(2011)
+
+#Amaliyot
+#4.
+def solishtirish(a, b):
+    if a > b:
+        print(f"{a} {b} dan katta")
+    elif a < b:
+        print(f"{a} {b} dan kichik")
+    else:
+        print(f"{a} va {b} teng")
+solishtirish(5, 10) # 5 10 dan kichik
+solishtirish(10, 5) # 10 5 dan katta
+solishtirish(5, 5) # 5 va 5 teng
